@@ -1,0 +1,21 @@
+QN Analysis Kombat commands to extract the OSM file into postgres database are:
+> cd C:\Program Files\osm
+      osm2pgsql -c -d lesotho -K -H localhost -U postgres --slim -P 5432 -S default.style -1808-lesotho-latest.osm.pbf (fifiqn)
+> cd C:\osm
+      osm2pgsql -c -d lesotho -K -H localhost -U postgres -P 5432 -S default.style -1808-lesotho-latest.osm.pbf (montshyqn and Stanley Makhanya)
+the link to download the osm data is download.geofabrik.de and the date is 18/august/2016.
+Our study Area is Urban_Council
+It has [5374] mapped buildings
+Its length of all roads is 270855.75395669
+Its count and the area of each type of landuse:
+Area_ha	          landuse	    Count
+0.188017400001474	cemetery	  1
+51.3395037999519	commercial  8
+10351.5220627495	farmland	  89
+7.38443475000811	landfill	  1
+352.585857249941	military	  1
+17.0787677999725	retail	    2
+5814.04504980008	residential	25
+34.6249139499669	quarry	    3
+6.68926289997522 	industrial	1
+
