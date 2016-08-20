@@ -37,7 +37,7 @@ Question 4.a) there are **[5374] mapped buildings for Urban Council** (our study
 | hotel        | 11    |
 | Hut          | 671   |
 | garages      | 1     |
-| Total        | 5374  |
+| **Total**        | **5374**  |
 
 b) The Length of all Urban Council mapped roads is: **188.8466 KM**
 
@@ -52,7 +52,7 @@ b) The Length of all Urban Council mapped roads is: **188.8466 KM**
 | 95.351766361882  | Path         |
 | 3.38068013720313 | Tertiary     |
 | 82.0085191523176 | Residential  |
-| 188.8466         | TOTAL        |
+| **188.8466**         | **TOTAL**        |
 
 c) The area in hectares and the count of each type of landuse is:
 
