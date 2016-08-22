@@ -18,12 +18,12 @@ c) The date of the download is : **18th August 2016**
 
 Question 4.a) there are **[5374] mapped buildings for Urban Council** (our study area)
 
-'''sql
+```sql
 Select building, count (*)
 From Urban_Council_Polygon
 Where Building is not null
-Group By Building '''
-
+Group By Building
+```
 
 | Building     | Count |
 |--------------|-------|
@@ -48,12 +48,12 @@ Group By Building '''
 
 b)The Length of all Urban Council mapped roads is: **188.8466 KM**
 
-'''sql
+```sql
 Select sum (ST_Length (way)) / 1000 AS Rooads_KM, highway
 From Urban_Council_line
 Where highway is not null
-Group By highway '''
-
+Group By highway
+```
 
 | roads\_km        | Highway      |
 |------------------|--------------|
@@ -70,12 +70,12 @@ Group By highway '''
 
 c) The area in hectares and the count of each type of landuse is:
 
-'''sql
+```sql
 Select sum (ST_Area (way)) / 1000 area_ha, landuse, count (*)
 From Urban_Council_Polygon
 Where landuse in ('cemetery','commercial','farmland','landfill','military','retail','residential','quarry','industrial')
-Group By landuse'''
-
+Group By landuse
+```
 
 | Area\_ha          | Landuse     | Count |
 |-------------------|-------------|-------|
@@ -91,7 +91,7 @@ Group By landuse'''
 
 For the extraction of our area
 
-'''sql
+```sql
 SELECT *
 FROM planet_osm_polygon as pp
 WHERE ST_Intersects(pp.way, 
@@ -2219,4 +2219,5 @@ WHERE ST_Intersects(pp.way,
           ]
         ]
       }
-    '), 4326), 900913)))'''
+    '), 4326), 900913)))
+```
