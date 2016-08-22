@@ -73,7 +73,7 @@ c) The area in hectares and the count of each type of landuse is:
 ```sql
 Select sum (ST_Area (way)) / 1000 area_ha, landuse, count (*)
 From Urban_Council_Polygon
-Where landuse in ('cemetery','commercial','farmland','landfill','military','retail','residential','quarry','industrial')
+Where landuse is not null
 Group By landuse
 ```
 
