@@ -57,7 +57,7 @@ FROM urban_building as ub, farmland_buffer as fb
 WHERE fb.landuse = 'farmland' AND (ST_Intersects (ub.way, fb.st_union))
 ```
 Then we can view the results in QGIS and have it as a map which can be used to enforce development control standards. 
-Or which can be used to assess the severity of the problem if exists. Using this analysis, (We found 71 buildings that are encroaching farmlands in Urban Council).
+Or which can be used to assess the severity of the problem if exists. Using this analysis, (We found 71 buildings that are encroaching farmlands in Urban Council). we have uploaded a project from QGIS called encroachment of buildings around farmlands in urban coucil, which displays this as a map.
 
 2. Lack of consultation by stakeholders to the physical planning offices in their planning process
 Open street mapping uses the latest update of imagery which was a big problem with Arc GIS, Arc GIS even lacked imagery at some places, so now we can boldly approach different stakeholder departments sharing ideas, information, and encouraging open source movement therefore.
