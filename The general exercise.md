@@ -27,7 +27,7 @@ NB: our area was first in Hactares. We first converted hactares into sqkm to com
 ```
 
 #Planning Issues in urban council
-1.Encroachment of residential structures onto the road reserve, agricultural land uses, flood zones, grazing lands due to urban sprawl or of one land use into another.
+1. Encroachment of residential structures onto the road reserve, agricultural land uses, flood zones, grazing lands due to urban sprawl or of one land use into another.
 With the osm data, we will be able to run queries which will assist in decision making towards problem solving should any dispute or land use conflict arise due to any kind of encroachment. For instance, let us take encroachment of buildings inside of farmlands as an example. We will run queries to analyze if this is the case and how it can help become solved. 
 We will first run a query of all buildings inside urban council as follows.
 
