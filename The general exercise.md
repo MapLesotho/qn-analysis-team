@@ -95,17 +95,17 @@ FROM urban_roads_builtup
 GROUP BY highway
 ```
 they are as follows
-highway text | roads_km 
------------- | ----------
-primary | 22.260740587131
-secondary | 0.4603156487763393
-unclassified | 31.6662015802822
-track | 7.89537962484012
-service | 0.738813450757472
-path | 28.7450588018459
-tertiary | 1.27194401406326
-residential | 34.0649171998195
-Total | 127.1033709
+|highway text | roads_km |
+|------------ | ----------|
+|primary | 22.260740587131|
+|secondary | 0.4603156487763393|
+|unclassified | 31.6662015802822|
+|track | 7.89537962484012|
+|service | 0.738813450757472|
+|path | 28.7450588018459|
+|tertiary | 1.27194401406326|
+|residential | 34.0649171998195|
+|**Total** | **127.1033709**|
 
  so fro our earlier anaylysis we had a total length of urban council roads as 188.8466.
  to get the total length of roads outside of the built up area we shall subtract the total length of roads inside the built up area from the total length of roads in urban council (our area of study)
