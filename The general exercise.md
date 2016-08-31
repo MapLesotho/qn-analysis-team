@@ -13,7 +13,7 @@ To get an estimated population of Urban Council, we will multiply our total numb
 
 ```bash
 5167 * 5 =25,835 people
-NB: But to get our residential buildings, we already have an analysis of a count of mapped buildings (5374). We decided to choose those that could make sense when it comes to residing people and in this case we have (yes = 4493, house = 3 and hut = 671) and sum them up.
+NB: But to get our residential buildings, we already have an analysis of a count of mapped buildings (5374), We decided to choose those that could make sense when it comes to residing people and in this case we have (yes = 4493, house = 3 and hut = 671) and sum them up.
 4493+3+671 =5167.
 ```
 The estimated total population of urban council is 25,835.
