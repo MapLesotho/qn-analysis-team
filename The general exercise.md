@@ -8,7 +8,7 @@ Therefore we will calculate the average out this as follows:
 3+7 = 10
 10/2 = 5 
 ```
-An average number of people per household will be 6.5: 
+An average number of people per household will be 5: 
 To get an estimated population of Urban Council, we will multiply our total number of residential buildings by an average number of people per household. 
 
 ```bash
