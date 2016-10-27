@@ -108,7 +108,7 @@ they are as follows
 |residential  | 34.0649171998195  |
 |**Total**    | **127.1033709**   |
 
- so from our earlier anaylysis we had a total length of urban council roads as 188.8466.
+ so from our earlier analysis we had a total length of urban council roads as 188.8466.
  to get the total length of roads outside of the built up area we shall subtract the total length of roads inside the built up area from the total length of roads in urban council (our area of study)
  
  ````bash
